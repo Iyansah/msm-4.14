@@ -1,7 +1,8 @@
 name: Build Kernel
 
 on:
-  push:
+  #push:
+  workflows_dispatch:
 
 jobs:
   build:
